@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CG.ENTRENAMIENTO - Contacto</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link rel="icon" href="./images/logotipo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f4d125",
+                        "primary-hover": "#e0c01f",
+                        "background-dark": "#121212",
+                        "surface-dark": "#1E1E1E",
+                        "surface-light": "#2C2C2C",
+                        "muted-text": "#A1A1A1"
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "sans": ["Lexend", "sans-serif"]
+                    },
+                    boxShadow: {
+                        "glow": "0 0 15px rgba(244, 209, 37, 0.15)",
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body { font-family: 'Lexend', sans-serif; -webkit-tap-highlight-color: transparent; min-height: max(884px, 100dvh); background-color: #121212; }
+        details>summary { list-style: none; }
+        details>summary::-webkit-details-marker { display: none; }
+        details[open] summary~* { animation: sweep .3s ease-in-out; }
+        @keyframes sweep { 0% { opacity: 0; transform: translateY(-10px) } 100% { opacity: 1; transform: translateY(0) } }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+
+<body class="bg-background-dark text-white overflow-x-hidden pb-24 antialiased selection:bg-primary selection:text-black flex justify-center">
+    <div class="w-full max-w-md bg-background-dark relative flex flex-col min-h-screen shadow-2xl">
+        
+        <header class="fixed top-0 left-0 right-0 z-50 flex justify-center w-full pointer-events-none">
+            <div class="w-full max-w-md bg-background-dark/80 backdrop-blur-md border-b border-white/5 px-4 py-3 flex items-center justify-evenly pointer-events-auto transition-all duration-300">
+                <img class="w-16 h-16" src="./images/logotipo.png" alt="logotipo CG ENTRENAMIENTO">
+                <h1 class="text-white text-lg font-bold tracking-tight font-Monaco">ENTRENAMIENTO</h1>
+                <a class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-green-600 text-white shadow-lg hover:scale-105 active:scale-95 transition-transform" href="https://wa.me/?text=Hola%20CG,%20quisiera%20más%20info%20sobre%20tus%20asesorías.">
+                    <span class="material-symbols-outlined text-[24px]">chat</span>
+                </a>
+            </div>
+        </header>
+
+        <main class="flex-1 flex flex-col px-4 pb-10 pt-24">
+            <div class="flex flex-col items-center justify-center py-6">
+                <h2 class="text-primary text-3xl font-bold tracking-tight uppercase">CONTACTO</h2>
+                <div class="h-1 w-12 bg-primary/50 rounded-full mt-2"></div>
+            </div>
+            
+            <div class="flex flex-col gap-5">
+                <div class="group relative overflow-hidden rounded-xl bg-surface-dark p-5 shadow-lg border border-white/5 transition-colors hover:bg-surface-light">
+                    <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-green-500/10 blur-2xl group-hover:bg-green-500/20 transition-all"></div>
+                    <div class="relative z-10 flex flex-col gap-4">
+                        <div class="flex items-start justify-between">
+                            <div class="flex flex-col gap-1 w-full">
+                                <div class="flex items-center gap-2 text-green-400 mb-1">
+                                    <span class="material-symbols-outlined text-[24px]">chat</span>
+                                    <span class="text-xs font-bold uppercase tracking-wider opacity-80">Recomendado</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-white leading-tight">WhatsApp</h3>
+                                <p class="text-white font-medium text-sm leading-relaxed mt-1">Si querés que te recomiende el plan correcto, escribime por acá.</p>
+                                <p class="text-gray-400 text-xs leading-relaxed mt-2 flex items-center gap-1.5">
+                                    <span class="material-symbols-outlined text-[14px] text-primary/70">schedule</span>
+                                    Respondo de Lunes a Viernes <br> de 08:00 a 22:00 hs (Arg).
+                                </p>
+                            </div>
+                            <img src="./images/whatsapp.png" alt="Icono whatspap-svg" class="w-16 h-16 mr-2 flex bg-green-500 rounded-xl justify-center">
+                        </div>
+                        <a href="https://wa.me/?text=Hola%20CG,%20quisiera%20más%20info%20sobre%20tus%20asesorías.">
+                        <button class="w-full flex items-center justify-center gap-2 rounded-lg bg-primary py-3 px-4 text-black font-bold text-sm uppercase tracking-wide shadow-glow active:translate-y-0.5 transition-all">
+                            <span>Hablar por WhatsApp</span>
+                            <span class="material-symbols-outlined text-[18px]">arrow_outward</span>
+                        </button>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="group relative overflow-hidden rounded-xl bg-surface-dark p-5 shadow-lg border border-white/5 transition-colors hover:bg-surface-light">
+                    <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-pink-500/10 blur-2xl group-hover:bg-pink-500/20 transition-all"></div>
+                    <div class="relative z-10 flex flex-col gap-4">
+                        <div class="flex items-start justify-between">
+                            <div class="flex flex-col gap-1">
+                                <div class="flex items-center gap-2 text-pink-400 mb-1">
+                                    <span class="material-symbols-outlined text-[24px]">photo_camera</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-white leading-tight">Instagram</h3>
+                                <p class="text-gray-400 text-sm leading-relaxed">Mira rutinas gratuitas, consejos diarios <br>y testimonios de alumnos.</p>
+                            </div>
+                            <img class="w-20 h-20 rounded-lg justify-center mr-2" alt="Imagen perfil de instagram Chapu gozo" src="./images/chapu-ig.jpg">
+                        </div>
+                        <a href="https://www.instagram.com/_chapu.g/">
+                        <button class="w-full flex items-center justify-center gap-2 rounded-lg bg-surface-light border border-primary/20 hover:bg-primary/10 py-2.5 px-4 text-white font-semibold text-sm transition-all active:scale-[0.98]">
+                            <span class="material-symbols-outlined text-[18px] text-pink-400">camera_alt</span>
+                            <span>Ver Instagram</span>
+                        </button>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="group relative overflow-hidden rounded-xl bg-surface-dark p-5 shadow-lg border border-white/5 transition-colors hover:bg-surface-light">
+                    <div class="relative z-10 flex flex-col gap-4">
+                        <div class="flex items-start justify-between">
+                            <div class="flex flex-col gap-1">
+                                <div class="flex items-center gap-2 text-blue-400 mb-1">
+                                    <span class="material-symbols-outlined text-[24px]">mail</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-white leading-tight">Email</h3>
+                                <p class="text-gray-400 text-sm leading-relaxed">Para consultas comerciales, colaboraciones o soporte general.</p>
+                            </div>
+                            <img src="./images/logotipo.png" alt="Logo CG entrenamientos de Chapu gozo" class="w-24 h-24">
+                        </div>
+                        <a class="w-full flex items-center justify-center gap-2 rounded-lg bg-surface-light border border-primary/20 hover:bg-primary/10 py-2.5 px-4 text-white font-semibold text-sm transition-all active:scale-[0.98]" href="mailto:agusgozo@gmail.com?subject=Consulta%20CG.ENTRENAMIENTO">
+                            <span class="material-symbols-outlined text-[18px] text-blue-400">send</span>
+                            <span>Enviar mail</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 flex flex-col gap-4">
+                <div class="flex items-center gap-2 mb-2 px-1">
+                    <span class="material-symbols-outlined text-primary">help</span>
+                    <h3 class="text-lg font-bold text-white">Preguntas Frecuentes</h3>
+                </div>
+                
+                <details class="group rounded-xl bg-surface-dark overflow-hidden border border-white/5 open:bg-surface-light transition-all">
+                    <summary class="flex cursor-pointer list-none items-center justify-between p-4 font-medium text-white transition-colors hover:text-primary">
+                        <span class="font-bold">¿Programas o asesoría: qué me conviene?</span>
+                        <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-400 group-open:text-primary">expand_more</span>
+                    </summary>
+                    <div class="border-t border-white/5 bg-black/20 p-4 pt-2 text-sm text-gray-300">
+                        <p class="mb-3 leading-relaxed">Si buscás un plan fijo y económico, elegí <strong class="text-primary">Programas</strong>. <br> Si necesitás corrección de técnica, videollamadas y seguimiento semanal, tu mejor opción es la <strong class="text-primary">Asesoría</strong>.</p>
+                    </div>
+                </details>
+
+                <details class="group rounded-xl bg-surface-dark overflow-hidden border border-white/5 open:bg-surface-light transition-all">
+                    <summary class="flex cursor-pointer list-none items-center justify-between p-4 font-medium text-white transition-colors hover:text-primary">
+                        <span class="font-bold">¿Cómo arrancamos?</span>
+                        <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-400 group-open:text-primary">expand_more</span>
+                    </summary>
+                    <div class="border-t border-white/5 bg-black/20 p-4 pt-2 text-sm text-gray-300">
+                        <p class="mb-3">El proceso es simple y consta de 3 pasos:</p>
+                        <ul class="flex flex-col gap-3">
+                            <li class="flex items-center gap-3">
+                                <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-green-500/20 text-green-400">
+                                    <span class="material-symbols-outlined text-[18px]">chat</span>
+                                </div>
+                                <span>Me escribís por WhatsApp.</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-500/20 text-blue-400">
+                                    <span class="material-symbols-outlined text-[18px]">assignment</span>
+                                </div>
+                                <span>Te envío el cuestionario inicial.</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/20 text-primary">
+                                    <span class="material-symbols-outlined text-[18px]">rocket_launch</span>
+                                </div>
+                                <span>Armo tu plan y arrancamos.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="group rounded-xl bg-surface-dark overflow-hidden border border-white/5 open:bg-surface-light transition-all">
+                    <summary class="flex cursor-pointer list-none items-center justify-between p-4 font-medium text-white transition-colors hover:text-primary">
+                        <span class="font-bold">¿Necesito gimnasio?</span>
+                        <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-400 group-open:text-primary">expand_more</span>
+                    </summary>
+                    <div class="border-t border-white/5 bg-black/20 p-4 text-sm text-gray-300 leading-relaxed">
+                        No es obligatorio. Los planes se adaptan 100% a tus posibilidades. Podemos armar rutinas para:
+                        <ul class="mt-2 list-disc list-inside text-gray-400 space-y-1 ml-1">
+                            <li>Gimnasio completo</li>
+                            <li>Entrenamiento en casa (con o sin elementos)</li>
+                            <li>Mix (días en casa y días en gimnasio)</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="group rounded-xl bg-surface-dark overflow-hidden border border-white/5 open:bg-surface-light transition-all">
+                    <summary class="flex cursor-pointer list-none items-center justify-between p-4 font-medium text-white transition-colors hover:text-primary">
+                        <span class="font-bold">¿Cómo se paga?</span>
+                        <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-400 group-open:text-primary">expand_more</span>
+                    </summary>
+                    <div class="border-t border-white/5 bg-black/20 p-4 text-sm text-gray-300 leading-relaxed">
+                        <div class="flex flex-col gap-3">
+                            <div>
+                                <strong class="text-primary block mb-1">Asesorías (Seguimiento continuo)</strong>
+                                Se abona mensualmente por suscripción o transferencia.
+                            </div>
+                            <div>
+                                <strong class="text-primary block mb-1">Programas (Planes fijos)</strong>
+                                Opción de pago en 3 cuotas mensuales (una por cada mesociclo del programa).
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="group rounded-xl bg-surface-dark overflow-hidden border border-white/5 open:bg-surface-light transition-all">
+                    <summary class="flex cursor-pointer list-none items-center justify-between p-4 font-medium text-white transition-colors hover:text-primary">
+                        <span class="font-bold">¿Hacés nutrición?</span>
+                        <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-400 group-open:text-primary">expand_more</span>
+                    </summary>
+                    <div class="border-t border-white/5 bg-black/20 p-4 text-sm text-gray-300 leading-relaxed">
+                        Entrego una <span class="text-white font-medium">guía orientativa</span> para optimizar tus resultados, con recomendaciones de macronutrientes y hábitos. <br /><br />
+                        <span class="text-primary/80 italic text-xs">Nota: No es una dieta estricta ni reemplaza la consulta con un nutricionista clínico.</span>
+                    </div>
+                </details>
+            </div>
+
+            <footer class="mt-12 flex flex-col items-center gap-4 text-center border-t border-white/5 pt-8">
+                <div class="flex items-center gap-4">
+                    <a class="flex h-10 w-10 items-center justify-center rounded-full bg-surface-dark text-white hover:bg-surface-light hover:text-primary transition-colors" href="#">
+                        <span class="material-symbols-outlined">adb</span>
+                    </a>
+                    <a class="flex h-10 w-10 items-center justify-center rounded-full bg-surface-dark text-white hover:bg-surface-light hover:text-pink-500 transition-colors" href="https://www.instagram.com/_chapu.g/">
+                        <span class="material-symbols-outlined">photo_camera</span>
+                    </a>
+                </div>
+                <p class="text-xs text-gray-500 font-light">
+                    © 2026 CG.ENTRENAMIENTO<br />
+                    Todos los derechos reservados.
+                </p>
+            </footer>
+        </main>
+        
+        <nav class="fixed bottom-0 w-full max-w-md bg-[#181818] border-t border-white/10 pb-safe pt-2 z-50 rounded-t-2xl shadow-[0_-5px_10px_rgba(0,0,0,0.3)] pointer-events-auto">
+            <div class="grid grid-cols-5 h-16 items-center px-2">
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group" href="index.html">
+                    <span class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">home</span>
+                    <span class="text-[10px] font-medium">Inicio</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group" href="sobre-mi.html">
+                    <span class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">person</span>
+                    <span class="text-[10px] font-medium">Sobre mí</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group" href="asesorias.html">
+                    <span class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">assignment</span>
+                    <span class="text-[10px] font-medium">Asesorías</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group" href="programas.html">
+                    <span class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">fitness_center</span>
+                    <span class="text-[10px] font-medium">Programas</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-primary relative" href="contacto.html">
+                    <span class="absolute -top-2 w-8 h-1 bg-primary/20 rounded-full blur-[2px]"></span>
+                    <span class="material-symbols-outlined text-[24px] fill-current animate-pulse-slow">mail</span>
+                    <span class="text-[10px] font-bold">Contacto</span>
+                </a>
+            </div>
+            <div class="h-4 w-full bg-[#181818]"></div>
+        </nav>
+    </div>
+</body>
+</html>

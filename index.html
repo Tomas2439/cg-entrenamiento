@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CG.ENTRENAMIENTO - Inicio</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link rel="icon" href="./images/logotipo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f4d125", // Color principal (Amarillo) - Botones y destacados
+                        "primary-hover": "#e0c01f", // Hover del color principal
+                        "background-dark": "#121212", // Fondo principal de la app
+                        "surface-dark": "#2c2818", // Fondo de tarjetas y contenedores base
+                        "surface-border": "#494222", //Borde oscuro
+                        "surface-light": "#2C2C2C", // Fondo para estados hover o tarjetas anidadas
+                        "muted-text": "#A1A1A1", // Color de texto secundario
+                        "dorado": "#FFD700" //Color dorado
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "sans": ["Lexend", "sans-serif"]
+                    },
+                    boxShadow: {
+                        "glow": "0 0 15px rgba(244, 209, 37, 0.15)", // Sombra de neón
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body { font-family: 'Lexend', sans-serif; -webkit-tap-highlight-color: transparent; min-height: max(884px, 100dvh); background-color: #121212; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+
+<body class="bg-background-dark text-white overflow-x-hidden pb-24 antialiased selection:bg-primary selection:text-black flex justify-center">
+    <div class="w-full max-w-md bg-background-dark relative flex flex-col min-h-screen shadow-2xl">
+        
+        <header class="fixed top-0 left-0 right-0 z-50 flex justify-center w-full pointer-events-none">
+            <div class="w-full max-w-md bg-background-dark/80 backdrop-blur-md border-b border-white/5 px-4 py-3 flex items-center justify-evenly pointer-events-auto transition-all duration-300">
+                <img class="w-16 h-16" src="./images/logotipo.png" alt="logotipo CG ENTRENAMIENTO">
+                <h1 class="text-white text-lg font-bold tracking-tight font-Monaco">ENTRENAMIENTO</h1>
+                <a class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-green-600 text-white shadow-lg hover:scale-105 active:scale-95 transition-transform" href="https://wa.me/?text=Hola%20CG,%20quisiera%20más%20info%20sobre%20tus%20asesorías.">
+                    <span class="material-symbols-outlined text-[24px]">chat</span>
+                </a>
+            </div>
+        </header>
+
+        <main class="flex-1 flex flex-col">
+            <div class="relative min-h-[100vh] w-full flex flex-col justify-end overflow-hidden pb-8 pt-20">
+                <div class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat" data-alt="Dark moody gym setting with weights and focus lighting" style='background-image: url(images/perfil_2.jpg)'></div>
+                <div class="absolute inset-0 z-10 bg-gradient-to-t from-background-dark via-background-dark/80 to-transparent"></div> <!--  url("https://lh3.googleusercontent.com/aida-public/AB6AXuD1yXtwfkbgjb_ikCQWnkH6OsiFhJ0F7EYUvuzVTDtI7QeLlbSQrZUQJT7YSJU2GFmtlV4q8DhoUDcb8fddoOXgOFjHFQOGpBr8ZLOe6H98qt95a__fv3552yARLyP0HyYJipN9HW1lxnW42Qqdj2TCMQAMCA_jHZNCVvBx4WSbTvfP2Hds1gcZONh8zn49sfjoYjMSyE9ay6nC8Y1E9V57l4lHoItKLlhH4wYAuGzIzikIFoC8QvRKyjzGY0omkbiO4nGNL_QudeJX")  -->
+                <div class="relative z-20 px-5 flex flex-col items-start gap-3">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full border border-primary/30 bg-primary/10 backdrop-blur-sm">
+                        <span class="text-primary text-xs font-bold tracking-wider uppercase font-mono">Entrenamiento Inteligente</span>
+                    </div>
+                    <div class="space-y-1">
+                        <h2 class="text-5xl font-black leading-[0.95] tracking-tight text-white">
+                            Entrená <br />
+                            <span class="text-primary">con sentido.</span>
+                        </h2>
+                        <h3 class="text-xl font-medium text-gray-200 mt-2">No copies rutinas.</h3>
+                    </div>
+                    <div class="border-l-2 border-primary pl-3 my-1">
+                        <p class="text-gray-300 text-sm italic font-light leading-relaxed">
+                            "El cuerpo responde cuando el estímulo tiene sentido."
+                        </p>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed max-w-[90%] ">
+                        Asesoría online personalizada para resultados<br> que se mantienen en el tiempo.
+                    </p>
+                    <a class="w-full mt-3 flex items-center justify-center gap-2 bg-primary hover:bg-primary-hover text-black h-14 rounded-xl font-bold text-base uppercase tracking-wide shadow-glow transition-all active:scale-[0.98]" href="https://wa.me/?text=Hola%20Agus!%20Vengo%20desde%20tu%20web%20interesado%20por%20una%20asesor%C3%ADa!">
+                        <span>Quiero mi plan personalizado</span>
+                        <span class="material-symbols-outlined text-[20px]">arrow_outward</span>
+                    </a>
+                    <div class="w-full flex gap-3 mt-1">
+                        <a href="asesorias.html" class="flex-1 flex items-center justify-center py-3 rounded-xl bg-surface-dark/80 backdrop-blur-sm border border-white/5 text-gray-200 text-sm font-semibold hover:bg-surface-light hover:text-white transition-colors active:scale-95">
+                            Ver Asesorías
+                        </a>
+                        <a href="programas.html" class="flex-1 flex items-center justify-center py-3 rounded-xl bg-surface-dark/80 backdrop-blur-sm border border-white/5 text-gray-200 text-sm font-semibold hover:bg-surface-light hover:text-white transition-colors active:scale-95">
+                            Ver Programas CG
+                        </a>
+                    </div>
+                    <p class="text-[10px] text-gray-500 mt-2 w-full text-center font-medium tracking-wide">
+                        Profesor de Educación Física + Entrenador IFBB | Online y en Índigo Gym
+                    </p>
+                </div>
+            </div>
+
+            <section class="px-5 pt-8 bg-background-dark">
+                <div class="bg-gradient-to-br from-surface-dark to-black border border-surface-border rounded-2xl p-6 text-center shadow-lg relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-primary/5 blur-3xl rounded-full pointer-events-none"></div>
+                    <h2 class="text-xl font-bold text-white mb-2">¿Qué es CG?</h2>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        <span class="text-primary font-semibold">Plan con sentido.</span> Técnica + progresión + seguimiento. Sin rutinas copiadas.
+                    </p>
+                </div>
+            </section>
+
+            <section class="px-5 py-10 bg-background-dark">
+                <div class="flex items-center gap-2 mb-6">
+                    <span class="w-1 h-6 bg-primary rounded-full"></span>
+                    <h2 class="text-2xl font-bold text-white">Por qué CG?</h2>
+                </div>
+                <div class="grid grid-cols-1 gap-4">
+                    <div class="bg-surface-dark border border-white/5 p-5 rounded-2xl flex items-start gap-4 transition-transform active:scale-[0.99] hover:bg-surface-light">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary">
+                            <span class="material-symbols-outlined text-4xl">psychology</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-lg mb-1 leading-tight">Más que un cambio fisico</h3>
+                            <p class="text-gray-400 text-sm leading-snug">Buscamos un cambio de mentalidad a través de la disciplina y el rendimiento deportivo.</p>
+                        </div>
+                    </div>
+                    <div class="bg-surface-dark border border-white/5 p-5 rounded-2xl flex items-start gap-4 transition-transform active:scale-[0.99] hover:bg-surface-light">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary">
+                            <span class="material-symbols-outlined text-4xl">exercise</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-lg mb-1 leading-tight">Fisiología pura</h3>
+                            <p class="text-gray-400 text-sm leading-snug">Programación fundamentada en fisiología del ejercicio y progresión estructurada<br> de cargas.</p>
+                        </div>
+                    </div>
+                    <div class="bg-surface-dark border border-white/5 p-5 rounded-2xl flex items-start gap-4 transition-transform active:scale-[0.99] hover:bg-surface-light">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary">
+                            <span class="material-symbols-outlined text-4xl">analytics</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-lg mb-1 leading-tight">Seguimiento real y medible</h3>
+                            <p class="text-gray-400 text-sm leading-snug">Empleamos una planilla de entrenamiento con ajustes semanales personalizados que garantizan tu progreso.</p>
+                        </div>
+                    </div>
+                    <div class="bg-surface-dark border border-white/5 p-5 rounded-2xl flex items-start gap-4 transition-transform active:scale-[0.99] hover:bg-surface-light">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary">
+                            <span class="material-symbols-outlined text-4xl">video_library</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-white text-lg mb-1 leading-tight">Técnica impecable garantizada</h3>
+                            <p class="text-gray-400 text-sm leading-snug">Accedé a mi biblioteca exclusiva con más de 90 videos propios que asegurarán tu ejecución perfecta en cada ejercicio.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="px-5 pb-10 bg-background-dark">
+                <div class="flex items-center justify-between mb-6">
+                    <div class="flex items-center gap-2">
+                        <span class="w-1 h-6 bg-primary rounded-full"></span>
+                        <h2 class="text-2xl font-bold text-white">Elegí por dónde empezar</h2>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-4">
+                    <a href="asesorias.html" class="group relative overflow-hidden rounded-2xl h-48 cursor-pointer active:scale-[0.98] transition-all border border-white/5">
+                        <div class="absolute inset-0 bg-cover bg-center" data-alt="Personal trainer checking workout with chapu gozo" style='background-image: url("./images/programa_gluteos_3.jpg");'></div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent"></div> <!-- https://lh3.googleusercontent.com/aida-public/AB6AXuB1BS6CM3AnzFfJ_U88uzqlgRNs6hJj9mP-zhUKLzY7NShdOuhYREIse6RhdrJRulCDSGE78oDMhCKrlyJJhjjZVF0gBt23HeMVmY8OlTc6btu_XhA-If-yodiwTErvFKMCExuWTSp5_W0RU1siNNsYVQvWVRU3YE4qQxkhDeCSdV3QrBWjVIotM3bs21SozRjerrmQQgYp7hlO3bVVAJ3a_ph2L-5jUWSTdut1zggcnJIRhgrcu6KmrrvogQ2aiqpMGd2OgsYcvCha -->
+                        <div class="absolute inset-0 p-6 flex flex-col justify-center items-start">
+                            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4 text-background-dark shadow-lg group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined">co_present</span>
+                            </div>
+                            <h3 class="text-2xl font-black text-white leading-none mb-2">Quiero una asesoría</h3>
+                            <p class="text-gray-100 text-md mb-4">Planificación 1 a 1 totalmente personalizada.</p>
+                            <span class="text-primary font-bold text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                Explorar opciones <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="programas.html" class="group relative overflow-hidden rounded-2xl h-48 cursor-pointer active:scale-[0.98] transition-all border border-white/5">
+                        <div class="absolute inset-0 bg-cover bg-center" data-alt="Intense chess workout with chapu gozo" style='background-image: url("./images/asesoramiento_2.jpg");'></div>
+                        <div class="absolute inset-0 bg-gradient-to-r from-black/100 via-black/50 to-transparent"></div> <!-- https://lh3.googleusercontent.com/aida-public/AB6AXuDCFeU5vs5cbZ5-QhI-DgJNk3EKmwBnNzKKOr1i2MvNmIeM4stoeXZTKE56qqFb7SMlC6demJ-Lyi56TnuhVUlFEzpk9Iq4nupRCvMZ10PH1HNfi3X4Yt4IbNVI9sx9ydGqBsnaPcVtmp5XdJ0rQ-9t2-71MDMJ-2IAK1H1PJpvajM1D7PiyIDycijkILuwPb4fF09T4afKryhwFilrDqKlkcBPpynPqO_wXZH4JXPlLE9Fk-KM3giLOcDT3Ic4GVGXfBFyanlQTgJF -->
+                        <div class="absolute inset-0 p-6 flex flex-col justify-center items-start">
+                            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4 text-background-dark shadow-lg group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined">calendar_month</span>
+                            </div>
+                            <h3 class="text-2xl font-black text-white leading-none mb-2">Quiero un programa<br> a 90 días</h3>
+                            <p class="text-gray-100 text-md mb-4">Retos de 60 a 90 dias con diferentes objetivos</p>
+                            <span class="text-white font-bold text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                Ver programas <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <nav class="fixed bottom-0 w-full max-w-md bg-[#181818] border-t border-white/10 pb-safe pt-2 z-50 rounded-t-2xl shadow-[0_-5px_10px_rgba(0,0,0,0.3)] pointer-events-auto">
+            <div class="grid grid-cols-5 h-16 items-center px-2">
+                <a class="flex flex-col items-center justify-center gap-1 text-primary relative" href="index.html">
+                    <span class="absolute -top-2 w-8 h-1 bg-primary/20 rounded-full blur-[2px]"></span>
+                    <span class="material-symbols-outlined text-[24px] fill-current animate-pulse-slow">home</span>
+                    <span class="text-[10px] font-bold">Inicio</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group" href="sobre-mi.html">
+                    <span class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">person</span>
+                    <span class="text-[10px] font-medium">Sobre mí</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group" href="asesorias.html">
+                    <span class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">assignment</span>
+                    <span class="text-[10px] font-medium">Asesorías</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group" href="programas.html">
+                    <span class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">fitness_center</span>
+                    <span class="text-[10px] font-medium">Programas</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group" href="contacto.html">
+                    <span class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">mail</span>
+                    <span class="text-[10px] font-medium">Contacto</span>
+                </a>
+            </div>
+            <div class="h-4 w-full bg-[#181818]"></div>
+        </nav>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CG.ENTRENAMIENTO - Programas</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link rel="icon" href="./images/logotipo.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f4d125",
+                        "primary-hover": "#e0c01f",
+                        "background-dark": "#121212",
+                        "surface-dark": "#1E1E1E",
+                        "surface-light": "#2C2C2C",
+                        "muted-text": "#A1A1A1"
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "sans": ["Lexend", "sans-serif"]
+                    },
+                    boxShadow: {
+                        "glow": "0 0 15px rgba(244, 209, 37, 0.15)",
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Lexend', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+            min-height: max(884px, 100dvh);
+            background-color: #121212;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-background-dark text-white overflow-x-hidden pb-24 antialiased selection:bg-primary selection:text-black flex justify-center">
+    <div class="w-full max-w-md bg-background-dark relative flex flex-col min-h-screen shadow-2xl">
+
+        <header class="fixed top-0 left-0 right-0 z-50 flex justify-center w-full pointer-events-none">
+            <div class="w-full max-w-md bg-background-dark/80 backdrop-blur-md border-b border-white/5 px-4 py-3 flex items-center justify-evenly pointer-events-auto transition-all duration-300">
+                <img class="w-16 h-16" src="./images/logotipo.png" alt="logotipo CG ENTRENAMIENTO">
+                <h1 class="text-white text-lg font-bold tracking-tight font-Monaco">ENTRENAMIENTO</h1>
+                <a class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-green-600 text-white shadow-lg hover:scale-105 active:scale-95 transition-transform" href="https://wa.me/?text=Hola%20CG,%20quisiera%20más%20info%20sobre%20tus%20asesorías.">
+                    <span class="material-symbols-outlined text-[24px]">chat</span>
+                </a>
+            </div>
+        </header>
+
+        <main class="flex-1 pt-24 px-4">
+            <div class="mb-6 p-4 rounded-xl bg-surface-dark border border-white/5 shadow-lg">
+                <div class="flex gap-3 items-start">
+                    <span class="material-symbols-outlined text-primary shrink-0 mt-0.5">info</span>
+                    <p class="text-sm text-white/90 leading-relaxed">
+                        <span class="font-bold text-primary">Programa 90 días</span> = estructura guiada + seguimiento
+                        base (no es 1 a 1 diario).
+                    </p>
+                </div>
+            </div>
+            <section class="mb-8">
+                <h2 class="text-white text-2xl font-bold mb-4 tracking-tight">Cuál te conviene?</h2>
+                <div class="flex gap-3 overflow-x-auto pb-4 no-scrollbar snap-x">
+                    <a class="snap-start shrink-0 flex items-center justify-center rounded-full bg-surface-dark border border-white/10 px-5 py-2.5 active:bg-primary active:text-black transition-colors"
+                        href="#recomposicion">
+                        <span class="text-sm font-medium whitespace-nowrap">Quiero empezar de cero</span>
+                    </a>
+                    <a class="snap-start shrink-0 flex items-center justify-center rounded-full bg-surface-dark border border-white/10 px-5 py-2.5 active:bg-primary active:text-black transition-colors"
+                        href="#progreso">
+                        <span class="text-sm font-medium whitespace-nowrap">Ya entreno pero no progreso</span>
+                    </a>
+                    <a class="snap-start shrink-0 flex items-center justify-center rounded-full bg-surface-dark border border-white/10 px-5 py-2.5 active:bg-primary active:text-black transition-colors"
+                        href="#fuerza">
+                        <span class="text-sm font-medium whitespace-nowrap">Quiero sentirme fuerte</span>
+                    </a>
+                </div>
+            </section>
+
+            <div class="flex flex-col gap-8 pb-10">
+                <article
+                    class="scroll-mt-24 group relative flex flex-col overflow-hidden rounded-2xl bg-surface-dark shadow-glow border border-white/5"
+                    id="recomposicion">
+                    <div class="relative h-48 w-full overflow-hidden">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-surface-dark via-surface-dark/50 to-transparent z-10">
+                        </div>
+                        <img alt="Person lifting dumbbells in a dark gym setting"
+                            class="h-full w-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                            src="./images/programa_recomposicion.jpg" />
+                        <div class="absolute top-4 left-4 z-20">
+                            <span
+                                class="inline-flex items-center rounded-lg bg-primary px-3 py-1 text-xs font-bold text-black uppercase tracking-wider">90
+                                Días</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 px-5 pb-6 -mt-12 relative z-20">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white leading-tight">Recomposición 90</h3>
+                            <p class="text-white/60 text-sm mt-1">Pierde grasa y construye tu base muscular.</p>
+                        </div>
+                        <div class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-3 text-sm border-t border-white/10 pt-4">
+                            <span class="material-symbols-outlined text-green-400 text-[20px]">check_circle</span>
+                            <p class="text-white/90">Principiantes, buscan recomposición corporal.</p>
+                            <span class="material-symbols-outlined text-red-400 text-[20px]">cancel</span>
+                            <p class="text-white/50">Buscan powerlifting competitivo.</p>
+                        </div>
+                        <div class="bg-surface-light rounded-xl p-4 border border-white/5">
+                            <h4
+                                class="text-primary text-xs font-bold uppercase tracking-wider mb-3 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[16px]">verified</span>
+                                Resultados reales en 90 días
+                            </h4>
+                            <ul class="space-y-2 text-sm text-white/80 list-disc list-outside ml-4 marker:text-primary">
+                                <li>Pérdida de grasa sostenida sin efecto rebote.</li>
+                                <li>Construcción de base muscular visible y tonificada.</li>
+                                <li>Dominio técnico de los ejercicios fundamentales.</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-black/20 rounded-xl p-4">
+                                <h4 class="text-white/60 text-xs font-bold uppercase tracking-wider mb-3">Qué incluye
+                                </h4>
+                                <ul class="space-y-2 text-sm text-white/80">
+                                    <li class="flex items-start gap-2">
+                                        <span
+                                            class="material-symbols-outlined text-primary text-[16px] mt-0.5">fitness_center</span>
+                                        <span>Plan de entrenamiento 100% guiado</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span
+                                            class="material-symbols-outlined text-primary text-[16px] mt-0.5">restaurant</span>
+                                        <span>Guía nutricional flexible y recetas</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span
+                                            class="material-symbols-outlined text-primary text-[16px] mt-0.5">smart_display</span>
+                                        <span>Biblioteca de videos de técnica</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 bg-primary/10 rounded-xl p-4 border border-primary/20">
+                            <span class="material-symbols-outlined text-primary">payments</span>
+                            <div>
+                                <p class="text-white text-sm font-bold">3 cuotas mensuales</p>
+                                <p class="text-white/60 text-xs">Pagás mes a mes, podés cortar cuando quieras.</p>
+                            </div>
+                        </div>
+                        <details
+                            class="group/accordion bg-surface-light rounded-xl overflow-hidden border border-white/5">
+                            <summary class="flex items-center justify-between p-4 cursor-pointer select-none">
+                                <span class="text-sm font-bold text-white">Ver detalle semana a semana</span>
+                                <span
+                                    class="material-symbols-outlined transition-transform duration-300 group-open/accordion:rotate-180 text-white/50">expand_more</span>
+                            </summary>
+                            <div class="px-4 pb-4 pt-0 space-y-3">
+                                <div class="flex items-center gap-3 border-l-2 border-primary/30 pl-3 py-1">
+                                    <span class="text-primary text-xs font-bold uppercase w-16 shrink-0">Sem 1-4</span>
+                                    <span class="text-white text-sm">Adaptación y aprendizaje de patrones.</span>
+                                </div>
+                                <div class="flex items-center gap-3 border-l-2 border-primary/30 pl-3 py-1">
+                                    <span class="text-primary text-xs font-bold uppercase w-16 shrink-0">Sem 5-8</span>
+                                    <span class="text-white text-sm">Sobrecarga progresiva y aumento de carga.</span>
+                                </div>
+                                <div class="flex items-center gap-3 border-l-2 border-primary/30 pl-3 py-1">
+                                    <span class="text-primary text-xs font-bold uppercase w-16 shrink-0">Sem 9-12</span>
+                                    <span class="text-white text-sm">Intensificación y consolidación de hábitos.</span>
+                                </div>
+                            </div>
+                        </details>
+                        <a class="flex items-center justify-center w-full bg-primary text-black font-bold text-base h-14 rounded-xl hover:bg-primary-hover transition-colors shadow-glow"
+                            href="https://wa.me/">
+                            Inscribirme ahora
+                        </a>
+                    </div>
+                </article>
+
+                <article
+                    class="scroll-mt-24 group relative flex flex-col overflow-hidden rounded-2xl bg-surface-dark shadow-glow border border-white/5"
+                    id="progreso">
+                    <div class="relative h-48 w-full overflow-hidden">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-surface-dark via-surface-dark/50 to-transparent z-10">
+                        </div>
+                        <img alt="Muscular back of a man training in a dark gym"
+                            class="h-full w-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                            src="./images/programa_gluteo.jpg" />
+                        <div class="absolute top-4 left-4 z-20">
+                            <span
+                                class="inline-flex items-center rounded-lg bg-primary px-3 py-1 text-xs font-bold text-black uppercase tracking-wider">90
+                                Días</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 px-5 pb-6 -mt-12 relative z-20">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white leading-tight">Progreso y Técnica</h3>
+                            <p class="text-white/60 text-sm mt-1">Rompe estancamientos y mejora tu hipertrofia.</p>
+                        </div>
+                        <div class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-3 text-sm border-t border-white/10 pt-4">
+                            <span class="material-symbols-outlined text-green-400 text-[20px]">check_circle</span>
+                            <p class="text-white/90">Intermedios, ya entrenan pero no ven cambios.</p>
+                            <span class="material-symbols-outlined text-red-400 text-[20px]">cancel</span>
+                            <p class="text-white/50">Personas con lesiones agudas recientes.</p>
+                        </div>
+                        <div class="bg-surface-light rounded-xl p-4 border border-white/5">
+                            <h4
+                                class="text-primary text-xs font-bold uppercase tracking-wider mb-3 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[16px]">verified</span>
+                                Resultados reales en 90 días
+                            </h4>
+                            <ul class="space-y-2 text-sm text-white/80 list-disc list-outside ml-4 marker:text-primary">
+                                <li>Superación de estancamientos en cargas (PRs).</li>
+                                <li>Mejora notable en la técnica y ejecución.</li>
+                                <li>Aumento de la densidad muscular e hipertrofia.</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-black/20 rounded-xl p-4">
+                                <h4 class="text-white/60 text-xs font-bold uppercase tracking-wider mb-3">Qué incluye
+                                </h4>
+                                <ul class="space-y-2 text-sm text-white/80">
+                                    <li class="flex items-start gap-2">
+                                        <span
+                                            class="material-symbols-outlined text-primary text-[16px] mt-0.5">monitoring</span>
+                                        <span>Corrección de técnica detallada por video</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span
+                                            class="material-symbols-outlined text-primary text-[16px] mt-0.5">edit_document</span>
+                                        <span>Planilla de control de cargas (Excel/App)</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span
+                                            class="material-symbols-outlined text-primary text-[16px] mt-0.5">group</span>
+                                        <span>Acceso a comunidad de soporte</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 bg-primary/10 rounded-xl p-4 border border-primary/20">
+                            <span class="material-symbols-outlined text-primary">payments</span>
+                            <div>
+                                <p class="text-white text-sm font-bold">3 cuotas mensuales</p>
+                                <p class="text-white/60 text-xs">Pagás mes a mes, podés cortar cuando quieras.</p>
+                            </div>
+                        </div>
+                        <details
+                            class="group/accordion bg-surface-light rounded-xl overflow-hidden border border-white/5">
+                            <summary class="flex items-center justify-between p-4 cursor-pointer select-none">
+                                <span class="text-sm font-bold text-white">Ver detalle semana a semana</span>
+                                <span
+                                    class="material-symbols-outlined transition-transform duration-300 group-open/accordion:rotate-180 text-white/50">expand_more</span>
+                            </summary>
+                            <div class="px-4 pb-4 pt-0 space-y-3">
+                                <div class="flex items-center gap-3 border-l-2 border-primary/30 pl-3 py-1">
+                                    <span class="text-primary text-xs font-bold uppercase w-16 shrink-0">Sem 1-4</span>
+                                    <span class="text-white text-sm">Volumen base y ajuste técnico fino.</span>
+                                </div>
+                                <div class="flex items-center gap-3 border-l-2 border-primary/30 pl-3 py-1">
+                                    <span class="text-primary text-xs font-bold uppercase w-16 shrink-0">Sem 5-8</span>
+                                    <span class="text-white text-sm">Intensidad aumentada y reducción de reps.</span>
+                                </div>
+                                <div class="flex items-center gap-3 border-l-2 border-primary/30 pl-3 py-1">
+                                    <span class="text-primary text-xs font-bold uppercase w-16 shrink-0">Sem 9-12</span>
+                                    <span class="text-white text-sm">Peaking y testeo de nuevas marcas.</span>
+                                </div>
+                            </div>
+                        </details>
+                        <a class="flex items-center justify-center w-full bg-primary text-black font-bold text-base h-14 rounded-xl hover:bg-primary-hover transition-colors shadow-glow"
+                            href="https://wa.me/">
+                            Inscribirme ahora
+                        </a>
+                    </div>
+                </article>
+
+                <article
+                    class="scroll-mt-24 group relative flex flex-col overflow-hidden rounded-2xl bg-surface-dark shadow-glow border border-white/5"
+                    id="fuerza">
+                    <div class="relative h-48 w-full overflow-hidden">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-surface-dark via-surface-dark/50 to-transparent z-10">
+                        </div>
+                        <img alt="Woman stretching and doing yoga mobility exercises in dark room"
+                            class="h-full w-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                            src="./images/programa_salud.jpg" />
+                        <div class="absolute top-4 left-4 z-20">
+                            <span
+                                class="inline-flex items-center rounded-lg bg-primary px-3 py-1 text-xs font-bold text-black uppercase tracking-wider">90
+                                Días</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 px-5 pb-6 -mt-12 relative z-20">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white leading-tight">Fuerza y Salud 90</h3>
+                            <p class="text-white/60 text-sm mt-1">Movilidad, fuerza funcional y vida sin dolor.</p>
+                        </div>
+                        <div class="grid grid-cols-[auto_1fr] gap-x-4 gap-y-3 text-sm border-t border-white/10 pt-4">
+                            <span class="material-symbols-outlined text-green-400 text-[20px]">check_circle</span>
+                            <p class="text-white/90">Buscan longevidad y salud articular.</p>
+                            <span class="material-symbols-outlined text-red-400 text-[20px]">cancel</span>
+                            <p class="text-white/50">Buscan estética extrema rápida.</p>
+                        </div>
+                        <div class="bg-surface-light rounded-xl p-4 border border-white/5">
+                            <h4
+                                class="text-primary text-xs font-bold uppercase tracking-wider mb-3 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[16px]">verified</span>
+                                Resultados reales en 90 días
+                            </h4>
+                            <ul class="space-y-2 text-sm text-white/80 list-disc list-outside ml-4 marker:text-primary">
+                                <li>Reducción significativa de dolores y molestias.</li>
+                                <li>Aumento de rangos de movimiento funcionales.</li>
+                                <li>Mayor energía diaria y fortaleza articular.</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-black/20 rounded-xl p-4">
+                                <h4 class="text-white/60 text-xs font-bold uppercase tracking-wider mb-3">Qué incluye
+                                </h4>
+                                <ul class="space-y-2 text-sm text-white/80">
+                                    <li class="flex items-start gap-2">
+                                        <span
+                                            class="material-symbols-outlined text-primary text-[16px] mt-0.5">accessibility_new</span>
+                                        <span>Rutinas de movilidad diaria guiadas</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span
+                                            class="material-symbols-outlined text-primary text-[16px] mt-0.5">self_improvement</span>
+                                        <span>Entrenamiento de fuerza funcional adaptada</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span
+                                            class="material-symbols-outlined text-primary text-[16px] mt-0.5">spa</span>
+                                        <span>Guía integral de manejo del estrés</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 bg-primary/10 rounded-xl p-4 border border-primary/20">
+                            <span class="material-symbols-outlined text-primary">payments</span>
+                            <div>
+                                <p class="text-white text-sm font-bold">3 cuotas mensuales</p>
+                                <p class="text-white/60 text-xs">Pagás mes a mes, podés cortar cuando quieras.</p>
+                            </div>
+                        </div>
+                        <details
+                            class="group/accordion bg-surface-light rounded-xl overflow-hidden border border-white/5">
+                            <summary class="flex items-center justify-between p-4 cursor-pointer select-none">
+                                <span class="text-sm font-bold text-white">Ver detalle semana a semana</span>
+                                <span
+                                    class="material-symbols-outlined transition-transform duration-300 group-open/accordion:rotate-180 text-white/50">expand_more</span>
+                            </summary>
+                            <div class="px-4 pb-4 pt-0 space-y-3">
+                                <div class="flex items-center gap-3 border-l-2 border-primary/30 pl-3 py-1">
+                                    <span class="text-primary text-xs font-bold uppercase w-16 shrink-0">Sem 1-4</span>
+                                    <span class="text-white text-sm">Despertar muscular y movilidad básica.</span>
+                                </div>
+                                <div class="flex items-center gap-3 border-l-2 border-primary/30 pl-3 py-1">
+                                    <span class="text-primary text-xs font-bold uppercase w-16 shrink-0">Sem 5-8</span>
+                                    <span class="text-white text-sm">Fortalecimiento de patrones fundamentales.</span>
+                                </div>
+                                <div class="flex items-center gap-3 border-l-2 border-primary/30 pl-3 py-1">
+                                    <span class="text-primary text-xs font-bold uppercase w-16 shrink-0">Sem 9-12</span>
+                                    <span class="text-white text-sm">Integración de movimientos y flujo.</span>
+                                </div>
+                            </div>
+                        </details>
+                        <a class="flex items-center justify-center w-full bg-primary text-black font-bold text-base h-14 rounded-xl hover:bg-primary-hover transition-colors shadow-glow"
+                            href="https://wa.me/">
+                            Inscribirme ahora
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <nav
+            class="fixed bottom-0 w-full max-w-md bg-[#181818] border-t border-white/10 pb-safe pt-2 z-50 rounded-t-2xl shadow-[0_-5px_10px_rgba(0,0,0,0.3)] pointer-events-auto">
+            <div class="grid grid-cols-5 h-16 items-center px-2">
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group"
+                    href="index.html">
+                    <span
+                        class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">home</span>
+                    <span class="text-[10px] font-medium">Inicio</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group"
+                    href="sobre-mi.html">
+                    <span
+                        class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">person</span>
+                    <span class="text-[10px] font-medium">Sobre mí</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group"
+                    href="asesorias.html">
+                    <span
+                        class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">assignment</span>
+                    <span class="text-[10px] font-medium">Asesorías</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-primary relative" href="programas.html">
+                    <span class="absolute -top-2 w-8 h-1 bg-primary/20 rounded-full blur-[2px]"></span>
+                    <span
+                        class="material-symbols-outlined text-[24px] fill-current animate-pulse-slow">fitness_center</span>
+                    <span class="text-[10px] font-bold">Programas</span>
+                </a>
+                <a class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-white transition-colors group"
+                    href="contacto.html">
+                    <span
+                        class="material-symbols-outlined text-[24px] group-hover:scale-110 transition-transform">mail</span>
+                    <span class="text-[10px] font-medium">Contacto</span>
+                </a>
+            </div>
+            <div class="h-4 w-full bg-[#181818]"></div>
+        </nav>
+    </div>
+</body>
+<script>
+    document.querySelectorAll('.snap-x').forEach(slider => {
+        // Scroll con rueda del mouse
+        slider.addEventListener('wheel', (e) => {
+            if (e.deltaY !== 0) {
+                e.preventDefault();
+                slider.scrollLeft += e.deltaY;
+            }
+        }, { passive: false });
+
+        // Drag con mouse
+        let isDown = false;
+        let startX, scrollLeft;
+
+        slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+            slider.style.cursor = 'grabbing';
+        });
+
+        slider.addEventListener('mouseleave', () => { isDown = false; slider.style.cursor = 'grab'; });
+        slider.addEventListener('mouseup', () => { isDown = false; slider.style.cursor = 'grab'; });
+
+        slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            slider.scrollLeft = scrollLeft - (x - startX) * 1.5;
+        });
+
+        slider.style.cursor = 'grab';
+    });
+</script>
+
+</html>

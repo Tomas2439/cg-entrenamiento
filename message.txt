@@ -17,11 +17,15 @@ Var 3 (Sobre la Biblioteca): "Técnica perfecta garantizada: Accedé a mi biblio
 
 -Agregar una imagen del titulo en sobre mi (tengo para pasarte la del ifbb pero el de educación física todavía no llego) -- Consultar
 
-Pagina 2.
 
--Cambiar “Mi enfoque…: por "Basado en la progresion e individualizacion constante para asegurar resultados reales"
 
--Cambiar esta parte por: Trabajo tanto de forma online como presencial en.. ayudando a las personas a...
+Pagina 2. -- DONE 100%
+
+-Cambiar “Mi enfoque…: por "Basado en la progresion e individualizacion constante para asegurar resultados reales" -- DONE
+
+-Cambiar esta parte por: Trabajo tanto de forma online como presencial en.. ayudando a las personas a... -- DONE
+
+
 
 pagina 3
 
@@ -41,6 +45,9 @@ pagina 3
 
 -Cambiar como envio videos la parte de la app, es todo por wpp. no hay app.
 
+
+
+
 Pagina 4
 
 -“Perdé grasa y construí tu base muscular."
@@ -52,27 +59,27 @@ Pagina 4
 -el programa de progreso y tecnica no esta mas, ahora es "gluteos y piernas
 
 -Fuerza y salud 90 es "salud y fuerza 90, te paso como publicitar ese programa y las foto podes elegir vos:
-1. Encabezado del Programa Etiqueta (Badge): 8 SEMANAS. Título: Glúteos y Pierna (Estética + Fuerza). Subtítulo: Progresión, criterio y ejecución limpia. No es otra "rutina de Instagram", es ciencia aplicada a tu cambio físico.  Perfil del Alumno (Checks)
-* ✅ Mujeres comprometidas que ya entrenan pero no logran que el glúteo "trabaje" de verdad. 
+1. Encabezado del ProgramaEtiqueta (Badge): 8 SEMANAS.Título: Glúteos y Pierna (Estética + Fuerza).Subtítulo: Progresión, criterio y ejecución limpia. No es otra "rutina de Instagram", es ciencia aplicada a tu cambio físico.Perfil del Alumno (Checks)
+* ✅ Mujeres comprometidas que ya entrenan pero no logran que el glúteo "trabaje" de verdad.
 * ❌ Personas que buscan resultados mágicos sin esfuerzo o con técnica deficiente.
 3. Cuadro: Resultados Reales en 8 Semanas
-* Mejora estética visible en volumen, forma y tono del glúteo. 
-* Aumento de fuerza específica en Hip Thrust, bisagras y sentadillas. 
-* Conexión neuromuscular real y mejor control lumbopélvico (adiós a las compensaciones lumbares). 
+* Mejora estética visible en volumen, forma y tono del glúteo.
+* Aumento de fuerza específica en Hip Thrust, bisagras y sentadillas.
+* Conexión neuromuscular real y mejor control lumbopélvico (adiós a las compensaciones lumbares).
 4. Qué Incluye
-*  Plan semanal de 8 semanas: Estructura clara dividida en dos mesociclos. 
-*  Guía técnica por patrones: Instrucciones detalladas sobre qué sentir y qué evitar en cada ejercicio. 
-*  Biblioteca de videos técnica: Acceso a la ejecución correcta de cada patrón de movimiento. 
-*  Soporte semanal vía WhatsApp: Un día fijo a la semana para resolver dudas puntuales sobre el programa.  
+* Plan semanal de 8 semanas: Estructura clara dividida en dos mesociclos.
+* Guía técnica por patrones: Instrucciones detalladas sobre qué sentir y qué evitar en cada ejercicio.
+* Biblioteca de videos técnica: Acceso a la ejecución correcta de cada patrón de movimiento.
+* Soporte semanal vía WhatsApp: Un día fijo a la semana para resolver dudas puntuales sobre el programa.
 5. Precio y Modalidad
 * 3 cuotas mensuales: (O el formato de pago que prefieras, manteniendo el diseño de la imagen 2).
 * Nota: Pagás mes a mes, podés cortar cuando quieras.
 
 📉 Detalle Semana a Semana (Acordeón)
 Para el menú desplegable "Ver detalle semana a semana", utilizaremos los microciclos del Word para que el cliente vea la lógica del proceso:
-*  SEM 1-2: Técnica y Estabilidad. Aprendemos a "encontrar" el glúteo y estabilizar la pelvis para un estímulo real. 
-*  SEM 3-5: Progresión y Tensión Mecánica. Primeros saltos medibles en carga y mayor exigencia del patrón dominante con seguridad. 
-*  SEM 6-8: Pico de Estímulo y Consolidación. Aumento de la densidad de trabajo, máximo estímulo del ciclo y descarga activa final.
+* SEM 1-2: Técnica y Estabilidad. Aprendemos a "encontrar" el glúteo y estabilizar la pelvis para un estímulo real.
+* SEM 3-5: Progresión y Tensión Mecánica. Primeros saltos medibles en carga y mayor exigencia del patrón dominante con seguridad.
+* SEM 6-8: Pico de Estímulo y Consolidación. Aumento de la densidad de trabajo, máximo estímulo del ciclo y descarga activa final.
 
 
 pagina 4

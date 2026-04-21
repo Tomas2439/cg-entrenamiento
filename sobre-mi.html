@@ -47,8 +47,8 @@
 <body class="bg-background-dark text-white overflow-x-hidden pb-24 antialiased selection:bg-primary selection:text-black flex justify-center">
     <div class="w-full max-w-md bg-background-dark relative flex flex-col min-h-screen shadow-2xl">
         
-        <header class="fixed top-0 left-0 right-0 z-50 flex justify-center w-full pointer-events-none">
-            <div class="w-full max-w-md bg-background-dark/80 backdrop-blur-md border-b border-white/5 px-4 py-3 flex items-center justify-evenly pointer-events-auto transition-all duration-300">
+        <header class="top-0 left-0 right-0 z-50 flex justify-center w-full pointer-events-none">
+            <div class="w-full max-w-md bg-background-dark/80 backdrop-blur-md border-b border-white/5 px-4 py-3 flex items-center justify-between pointer-events-auto transition-all duration-300">
                 <img class="w-16 h-16" src="./images/logotipo.png" alt="logotipo CG ENTRENAMIENTO">
                 <h1 class="text-white text-lg font-bold tracking-tight font-Monaco">ENTRENAMIENTO</h1>
                 <a class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-green-600 text-white shadow-lg hover:scale-105 active:scale-95 transition-transform" href="https://wa.me/?text=Hola%20CG,%20quisiera%20más%20info%20sobre%20tus%20asesorías.">
@@ -57,10 +57,9 @@
             </div>
         </header>
 
-        <main class="flex-1 flex flex-col pt-24 pb-10 px-4 gap-6">
+        <main class="flex-1 flex flex-col pt-10 pb-10 px-4 gap-6">
             <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-2xl group">
-                <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-700 group-hover:scale-105" data-alt="Fitness trainer standing confidently in a gym environment with moody lighting" style="background-image: url('images/perfil_1.png');"></div>  
-                <!-- https://lh3.googleusercontent.com/aida-public/AB6AXuDaVXi1v1nKoz2mO9tl_wcYmToMYhT6aK6LBV8ioE7zYtuRC5E3NP29K-hWLq1HDJf4ONUcJFQ5Q8lyYFjk6CfP41Gi78lEwQ8Q8ZYyP9xaJQYNxEpaMclCVb7s35jfe530Y4Y3UTFzaupZYsoyEbwiHm5Z9gK3s2CSz1UAKslh_IJX7MQtgr_Qd544JOY6BxfIJU-ISLQo96NgwfhpNbXxfy3zZrO4CvygNw2uBcJBQe_BYt9L40jJ9BU9cGIAqFn5yLpJ8ma9oM_j -->
+                <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-700 group-hover:scale-105" data-alt="Fitness trainer standing confidently in a gym environment with moody lighting" style="background-image: url('images/perfil_1.png');"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/50 to-transparent opacity-90"></div>
                 <div class="absolute bottom-0 left-0 w-full p-6 flex flex-col justify-end h-full z-10">
                     <span class="inline-block px-3 py-1 mb-3 text-xs font-bold text-black uppercase tracking-wider bg-primary rounded-full w-fit">Sobre mí</span>
@@ -70,20 +69,20 @@
                     </p>
                 </div>
             </div>
-            <div class="flex flex-col gap-4 text-gray-300 text-base leading-relaxed font-light">
-                <p>Especialista en entrenamiento de <span class="text-white font-medium">Fuerza, Hipertrofia y Recomposición Corporal</span>, siempre priorizando la Salud.</p>
+            <div class="flex flex-col gap-4 text-gray-300 text-lg leading-relaxed font-light">
+                <p>Especialista en entrenamientos de <span class="text-primary font-medium">Fuerza,<br> Hipertrofia y Recomposición Corporal</span>,<br> siempre priorizando la salud.</p>
                 <div class="h-px w-10 bg-primary/30"></div>
-                <p>Mi enfoque se basa en la <span class="text-white font-medium">técnica correcta</span> y la progresión constante para asegurar resultados reales y sostenibles.</p>
+                <p>Basado en la <span class="text-primary font-medium">progresión e individualizacion</span> constante para asegurar <span class="text-primary font-medium">resultados reales</span> y sostenibles.</p>
                 <div class="h-px w-10 bg-primary/30"></div>
-                <p>Trabajo de forma online y presencial en <span class="text-white font-medium">Indigo Gym</span>, ayudando a cientos de personas a transformar su físico y rendimiento.</p>
+                <p>Trabajo de forma online como presencial <br>en <span class="text-primary font-medium">Indigo Gym</span>, ayudando a las personas <br>a  transformar su físico y rendimiento.</p>
             </div>
             <div class="w-full overflow-hidden">
                 <div class="flex flex-wrap gap-2">
-                    <span class="px-4 py-2 rounded-full bg-surface-dark border border-white/10 text-xs font-medium text-white hover:border-primary/50 transition-colors">Fuerza</span>
-                    <span class="px-4 py-2 rounded-full bg-surface-dark border border-white/10 text-xs font-medium text-white hover:border-primary/50 transition-colors">Hipertrofia</span>
-                    <span class="px-4 py-2 rounded-full bg-surface-dark border border-white/10 text-xs font-medium text-white hover:border-primary/50 transition-colors">Salud</span>
-                    <span class="px-4 py-2 rounded-full bg-surface-dark border border-white/10 text-xs font-medium text-white hover:border-primary/50 transition-colors">Rendimiento Deportivo</span>
-                    <span class="px-4 py-2 rounded-full bg-surface-dark border border-white/10 text-xs font-medium text-white hover:border-primary/50 transition-colors">Pérdida de Peso</span>
+                    <span class="px-4 py-4 rounded-full bg-surface-dark border border-white/10 text-sm font-medium text-white hover:border-primary/50 transition-colors">Fuerza</span>
+                    <span class="px-4 py-4 rounded-full bg-surface-dark border border-white/10 text-sm font-medium text-white hover:border-primary/50 transition-colors">Hipertrofia</span>
+                    <span class="px-4 py-4 rounded-full bg-surface-dark border border-white/10 text-sm font-medium text-white hover:border-primary/50 transition-colors">Salud</span>
+                    <span class="px-4 py-4 rounded-full bg-surface-dark border border-white/10 text-sm font-medium text-white hover:border-primary/50 transition-colors">Rendimiento Deportivo</span>
+                    <span class="px-4 py-4 rounded-full bg-surface-dark border border-white/10 text-sm font-medium text-white hover:border-primary/50 transition-colors">Pérdida de Peso</span>
                 </div>
             </div>
             <div class="w-full">
@@ -94,7 +93,7 @@
                 <div class="flex flex-col gap-2">
                     <div class="flex items-center gap-3 px-4 py-3 bg-surface-dark border border-white/5 rounded-xl hover:bg-surface-light transition-colors">
                         <span class="material-symbols-outlined text-primary text-xl">emoji_events</span>
-                        <span class="text-sm font-medium text-white">IFBB – Entrenador internacional</span>
+                        <span class="text-sm font-medium text-white">IFBB - Entrenador internacional</span>
                     </div>
                     <div class="flex items-center gap-3 px-4 py-3 bg-surface-dark border border-white/5 rounded-xl hover:bg-surface-light transition-colors">
                         <span class="material-symbols-outlined text-primary text-xl">school</span>
@@ -106,10 +105,10 @@
                     </div>
                 </div>
             </div>
-            <div class="rounded-2xl bg-surface-dark p-6 border border-white/5 shadow-lg">
-                <h3 class="text-lg font-bold text-white mb-5 flex items-center gap-2">
-                    <span class="material-symbols-outlined text-primary">psychology</span>
-                    Mi enfoque
+            <div class="rounded-xl bg-surface-dark p-6 border border-white/5 shadow-lg">
+                <h3 class="text-2xl font-bold text-white mb-5 flex items-centers gap-2">
+                    <span class="material-symbols-outlined text-primary text-3xl">emoji_objects</span>
+                    Mi Enfoque
                 </h3>
                 <div class="flex flex-col gap-4">
                     <div class="flex items-start gap-3">

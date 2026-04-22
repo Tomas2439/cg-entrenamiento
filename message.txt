@@ -29,21 +29,21 @@ Pagina 2. -- DONE 100%
 
 pagina 3
 
--Centrar mejor la foto
+-Centrar mejor la foto -- Consultar
 
--cambiar tenes experiencia entrenando por "estas comprometido con un cambio"
+-cambiar tenes experiencia entrenando por "estas comprometido con un cambio"  -- DONE
 
--Cambiar planificacion mensual en app por "planificacion semanal" y devolucion tecnica de videos por "Correcion por videos"
+-Cambiar planificacion mensual en app por "planificacion semanal" y devolucion tecnica de videos por "Correcion por videos"  -- DONE
 
--Sacar evaluacion + ruta.
+-Sacar evaluacion + ruta. 
 
--Que dice en ver para quien es ideal?
+-Que dice en ver para quien es ideal? -- Consultar
 
--En el del indigo dice in suto?, que diga estas 3: 1:Seguimiento en persona.2 correccion constante.3 planificacion mensual.
+-En el del indigo dice in suto?, que diga estas 3: 1:Seguimiento en persona.2 correccion constante.3 planificacion mensual. -- DONE
 
--en el de semi cambiar rutina individual adaptada por "rutina adaptada".
+-en el de semi cambiar rutina individual adaptada por "rutina adaptada". -- DONE
 
--Cambiar como envio videos la parte de la app, es todo por wpp. no hay app.
+-Cambiar como envio videos la parte de la app, es todo por wpp. no hay app. -- DONE
 
 
 
@@ -82,7 +82,7 @@ Para el menú desplegable "Ver detalle semana a semana", utilizaremos los microc
 * SEM 6-8: Pico de Estímulo y Consolidación. Aumento de la densidad de trabajo, máximo estímulo del ciclo y descarga activa final.
 
 
-pagina 4
+pagina 5
 
 -El mail por las dudas es chapuentrenador@gmail.com
 
